@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+
+
+* {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition-property: background;
+    transition-duration: 250ms;
+}
+
+/*
+.menu:hover {
+background: rgba(163, 56, 56, 0.288);
+}
+*/
+
+
+.menu li a {
+padding: 15px 50px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+
+}
+
+.menu li a:hover {
+background-color: rgb(214, 91, 91);
+}
+
+
+.menu li {
+    display: inline-block;
+    color: white;
+    list-style: none;
+}
+
